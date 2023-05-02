@@ -142,7 +142,7 @@
         <script>
             $(document).ready(function () {
                 Echo.channel('CartChannel')
-                .listen('try_event', (data) => {
+                .listen('TryEvent', (data) => {
                     console.log(data);
                 console.log('done');
                 });

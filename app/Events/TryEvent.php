@@ -34,8 +34,8 @@ class TryEvent implements ShouldBroadcast
         ];
     }
     //===============================================================
-    public function broadcastas()
-    {
-        return 'try_event';
-    }
+    // public function broadcastas()
+    // {
+    //     return 'try_event';
+    // }
 }
